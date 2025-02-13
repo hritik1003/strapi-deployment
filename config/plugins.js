@@ -1,7 +1,7 @@
 module.exports = {
   'users-permissions': {
     config: {
-      jwtSecret: 'ixyARdoCju754EXOXhueQw==',
+      jwtSecret: env('JWT_SECRET'),
     },
   },
 };
